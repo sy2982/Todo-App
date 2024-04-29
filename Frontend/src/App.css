@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  background-color: lightgreen;
+  font-family: 'Playfair Display', serif;
+  height: 100vh;
+}
+
+.custom-calendar {
+  max-width: 100%;
+  background-color: #ffffff; /* Set background color to white */
+}
+
+.custom-calendar .react-calendar__tile {
+  border-radius: 0px;
+  border: #ffffff;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  color: #000000; /* Set navigation button color to black */
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: rgb(0, 129, 247); /* Change background color of the active tile */
+  color: black;
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.create_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create_form input { 
+  flex: 1; /* Make the input field flexible */
+  padding: 10px;
+  border-bottom: 2px solid ;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.create_form button { 
+  padding: 10px;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.create_form button:hover {
+  background-color: rgb(29, 68, 185);
+}
+
+.home {
+  flex-direction: column; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  text-align: center; /* Center-align the content */
+}
+
+.login-header {
+  background-color: #000000;
+  color: white;
+  padding: 2px 30px;
+  border-radius: 20px;
+  margin-bottom: 20px; /* Add margin between the header and button */
+}
+
+.logout {
+  margin-top: 20px;
+}
+
+.logout-button {
+  background-color: black; /* Red background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+  font-size: 16px; /* Font size */
+}
+
+.logout-button:hover {
+  background-color: #d32f2f; /* Darker red background color on hover */
+}
+
+.no_entry {
+  text-align: center;
+}
+
+.quote-of-the-day {
+  font-style: italic;
+  text-align: center;
+  width: 70%;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+.task div .icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0px 8px;
+}
+
+.task div .icon:hover {
+  color: gray;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.title {
+  background-color: #000000;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+}
